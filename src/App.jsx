@@ -1,3 +1,5 @@
+import ColorPicker from "./ColorPicker";
+
 function App() {
   const [count, setCount] = useState(0)
 
