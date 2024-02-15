@@ -1,7 +1,7 @@
-import { userState } from 'react';
+import { useState } from 'react';
 
 export default function ColorPicker() {
-    const [color, setColor] = userState("#FFFFFF");
+    const [color, setColor] = useState("#FFFFFF");
 
     return (
         <div className="wrapper">
